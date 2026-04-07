@@ -1,0 +1,45 @@
+1. What conclusion can you reach about the responses to this question?
+
+Most students are very focused on being prepared. They log in 5 minutes early, check their Wi-Fi, and have their notebooks ready to go.
+
+2. Is the default summary or visualization helpful? How could it be improved?
+
+The default summary aren't very helpful for the long text answers. It would be better to use a word cloud.
+
+3. For questions with an “Other” option, where can you find the actual text of those
+responses? Do you notice anything that might be tricky about analyzing these?
+
+I can find the text in the spreadsheet column 9 in row 4, It’s tricky to analyze because these answers don't fit into a standard categories.
+
+4. For questions calling for a written response, what challenges do you notice about
+finding trends or patterns in the answers provided?
+
+It's hard to find trends because some people write a single sentence while others write a whole paragraph. You have to read every one to find common themes.
+
+5. Now that you can see the responses, how might you recommend rephrasing this or
+question or the response options in a future survey?
+
+I’d change the routine question to a checklist (e.g., [ ] Checked Wi-Fi, [ ] Got notebook). This would make the data much easier to graph.
+
+Next respond to the below questions:
+6. Is there anything that surprised you about the survey responses?
+I was surprised that almost 80% of the class still uses "pen and paper" for a tech course.
+
+7. Looking at the responses to questions 1 and 5, are there any ideas you might try to
+include in your morning routine, or any questions that you are also curious about?
+
+I like the idea from row 13 about reviewing previous notes 5 minutes before class starts. I’m also curious about using Power BI as mentioned in row 11.
+
+8. Pretend you are the instructor. Is there anything you can learn from this survey to help
+in how you approach teaching this class?
+
+Students are worried about real world use and the hardest parts of the course. I would add more examples of how these skills are used in actual jobs.
+
+9. Again, pretend you are the instructor. Do you think it was helpful or not helpful to
+make this survey anonymous? Why or why not? (If you can see both pros and cons,
+you may include both.)
+
+Pros - Students were very honest about their career goals and their worries.
+​Cons - You can't see which specific student doesn't have a second monitor or a mouse to offer them extra help.
+Summary - It’s helpful because it allows for more honest questions.
+
