@@ -13,41 +13,47 @@ change the date range to February 1, 2024 through February 28, 2025.
 a) What is the highest peak recorded in the line chart for “Interest over time”?
 100
 b) What is the lowest dip recorded?
-0-10
+61
 
 4. At the top next to the box for “Milkshake,” there is a plus sign to add another search
 term. Click the plus sign to add a search for Hamburger (Food).
 a) What is the highest peak recorded for searches using Hamburger?
 100
 What is the lowest dip?
-61
+50
 b) What happened to the line for Milkshake? What do the high and low look like now?
-The milkshake line is the bottom blue line. After adding hamburger, it appears almost flat. Its high and low are both 0 on the rescaled chart.
- 
-5. Why did the line for Milkshake change? Hint: Click on the icon next to “Interest over time” for more information about how trend results are displayed.
-The milkshake line changed because Google Trends rescales all terms relative to the highest search volume. Adding hamburger made milkshake look very small compared to hamburger so its line dropped near the bottom of the chart.
+Milkshake- Line Shows low, steady interest (mostly under 25 on the scale). It remains consistent but significantly lower than hamburgers, with a slight dip in the colder months.
+​The Highs- Hamburgers peaked at 100 (maximum popularity) mid-year Milkshakes peaked much lower, around 25.
+​The Lows- At their lowest points, Hamburgers stayed around 45, while Milkshakes dropped below 10.
+
+​5. Why did the line for Milkshake change? Hint: Click on the icon next to “Interest over time” for more information about how trend results are displayed.
+The line for Milkshake is normalized relative to the Hamburger. Because Google Trends scales everything based on the highest point on the chart (the Hamburger's peak of 100), the Milkshake line stays lower. It also trends downward toward the end of the year due to seasonality as search interest for cold treats drops in colder weather.
 
 6. Add a third term to your search, this time for Breakup (Topic).
+
 a) Do you see any patterns that suggest a relationship between searches for Breakup
 and Hamburger?
-Breakup searches stay at 0 while Hamburger is very high so there is no relationship between them.
+Correlation- There is a visible positive correlation during peak periods. When searches for Breakup spike searches for Hamburger also reach their highest points.
+Even though they spike at the same time, the Hamburger peak is much higher (100) compared to the Breakup peak (approx. 30).
 b) How about between Breakup and Milkshake?
-Both Breakup and Milkshake stay at 0 all the time, so there is no pattern or relationship between them.
-
+Weak Correlation- Unlike hamburgers, Milkshake (blue) and Breakup (yellow) do not show a strong relationship.
+So, There is no significant behavioral link between the two milkshake searches appear more seasonal, while breakup searches are more sporadic.
 7. What does all of this suggest about the reliability of the conclusions reached in the
 article?
-Since Breakup and Milkshake stay at 0, the chart doesn’t show real patterns, so the conclusions about them may not be reliable.
+The data shows a correlation in the timing of spikes but this does not prove causation. The conclusions in the article may be speculative because the relationship could be coincidental or driven by a third factor such as a holiday, rather than a direct behavioral link.
 
 8. At the upper right of Google Trends, click on the link for “Back to Classic Explore.”
 Notice that this view includes a section for “Compared breakdown by subregion.”
 a) What was the top state by interest for Milkshake?
-North Carolina
+
+Illinois
  
 b) What was the top state by interest for Hamburger?
-Wyoming
+ 
+South Dakota
 
 9. Use the download icon to download a csv file with these search trend results. Save it
-to your DataAnalytics/week-01 folder as GTrends_milkshake_hamburger_2024.csv
+to your Data Analytics/week-01 folder as GTrends_milkshake_hamburger_2024.csv
 
 10. OPTIONAL: Spend a little more time exploring Google Trends results for other
 “breakup foods” listed in the article. Some more food for thought:
