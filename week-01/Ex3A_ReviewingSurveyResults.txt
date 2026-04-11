@@ -1,29 +1,47 @@
-1. What conclusion can you reach about the responses to this question?
+1. What is your 5-minute pre-class routine?
 
-Most students are very focused on being prepared. They log in 5 minutes early, check their Wi-Fi, and have their notebooks ready to go.
+​Conclusion - Most students prioritize a Tech Check (Wi-Fi, audio,) and a Material Check (Notebook, pen). This shows a high level of responsibility.
+​Visualization - Since this is in Excel, there is no visualization. This is not helpful because I have to read 20 different sentences to see a trend.
+​"Other" Option - N/A This was an open ended text box so every answer is unique.
+​Written Challenges - Everyone describes their routine differently. For example, some say "Wi-Fi" and others say "internet." It is hard to count these exactly.
+​Rephrasing - I would change this to a Checklist of common tasks 
 
-2. Is the default summary or visualization helpful? How could it be improved?
+2. Do you have a second monitor?
 
-The default summary aren't very helpful for the long text answers. It would be better to use a word cloud.
+​Conclusion - Out of the 20 responses, about 11 said Yes and 9 said No. The class is almost split 50/50 on having extra screen space.
+​Visualization - In Excel, this is just a list of Yes and No. It is not helpful because I have to count them one by one to find the total.
+​"Other" Option - Some people wrote Yes at home which makes the data messy because it isn't a simple Yes.
+​Written Challenges- N/A (Since it was mostly a choice).
+​Rephrasing - I would change this to a Multiple Choice with only two options: Yes or No to avoid extra text.
 
-3. For questions with an “Other” option, where can you find the actual text of those
-responses? Do you notice anything that might be tricky about analyzing these?
+3. Do you have an external mouse/keyboard?
 
-I can find the text in the spreadsheet column 9 in row 4, It’s tricky to analyze because these answers don't fit into a standard categories.
+​Conclusion - Most students (about 14 out of 20) have at least a mouse, but very few have an external keyboard.
+​Visualization - Not helpful in Excel. A bar chart would have been much better to compare Mouse vs Keyboard owners.
+​"Other" Option - One person wrote Only a mouse. I found this in the text, which shows they don't have the full setup.
+​Written Challenges - N/A.
+​Rephrasing = I would use two separate questions (one for mouse, one for keyboard) to get a clear count for both.
 
-4. For questions calling for a written response, what challenges do you notice about
-finding trends or patterns in the answers provided?
+4. How do you take notes?
 
-It's hard to find trends because some people write a single sentence while others write a whole paragraph. You have to read every one to find common themes.
+​Conclusion - Pen and paper is the winner. At least 16 students prefer writing by hand over typing on the computer.
+​Visualization - Not helpful in Excel. Seeing a pie chart would make this Pen and Paper trend much more obvious.
+​"Other" Option - Response 4 mentions Screenshots which is a unique way of note-taking not listed as a main choice.
+​Written Challenges - One student wrote Both which makes it hard to put them into a single category.
+​Rephrasing - I would change this to Select all that apply so students can pick both Digital and Handwritten.
 
-5. Now that you can see the responses, how might you recommend rephrasing this or
-question or the response options in a future survey?
+5. What questions do you have for the Academy?
 
-I’d change the routine question to a checklist (e.g., [ ] Checked Wi-Fi, [ ] Got notebook). This would make the data much easier to graph.
+​Conclusion - Students are most concerned about Certifications and Job Placement (how they will use these skills in a real job).
+​Visualization - In Excel, this is just a wall of text. It is not helpful at all for seeing what the top concern is.
+​"Other" Option - N/A This was a full-text response question.
+​Written Challenges - This is the most difficult to analyze. I have to read every single cell to find out that Certifications was a common theme.
+​Rephrasing - I would use a Dropdown Menu with categories so I can group the questions easily.
 
 Next respond to the below questions:
+
 6. Is there anything that surprised you about the survey responses?
-I was surprised that almost 80% of the class still uses "pen and paper" for a tech course.
+I was surprised that almost 80% of the class still uses pen and paper for a tech course.
 
 7. Looking at the responses to questions 1 and 5, are there any ideas you might try to
 include in your morning routine, or any questions that you are also curious about?
