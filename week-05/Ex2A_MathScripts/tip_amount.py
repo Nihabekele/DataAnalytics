@@ -10,6 +10,7 @@
 # print("The tip on a $" + format(bill, ".2f") + " restaurant bill is $" + format(tip, ".2f"))
 
 
+# Lab 3
 # Modifying tip_amount.py to use input()
 
 # PITFALL input() always returns a string (text). 
