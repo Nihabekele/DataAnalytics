@@ -14,6 +14,15 @@ total_debts = credit_card + student_loan
 net_worth = total_assets - total_debts
 
 # results
-print("Your total assets are " + format(total_assets, ".2f"))
-print("Your total debts are " + format(total_debts, ".2f"))
-print("Your net worth is " + format(net_worth, ".2f"))
+
+# print("Your total assets are " + format(total_assets, ".2f"))
+# print("Your total debts are " + format(total_debts, ".2f"))
+# print("Your net worth is " + format(net_worth, ".2f"))
+
+
+#Lab 4
+#  F-STRING STATEMENTS 
+
+print(f"Your total assets are {total_assets:.2f}")
+print(f"Your total debts are {total_debts:.2f}")
+print(f"Your net worth is {net_worth:.2f}")
