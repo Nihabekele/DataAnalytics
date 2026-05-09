@@ -1,7 +1,7 @@
 # Lab
 # 1. Define variables
 student_name = "Liya"
-student_major = "MKT"  # Try changing this to test different codes
+student_major = "MKT"  # I can try changing this to test different codes
 
 # Lookup Logic
 if student_major == "BIOL":
