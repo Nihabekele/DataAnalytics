@@ -10,3 +10,4 @@ f.write("\nPerfect night out: I would go to a nice dinner with my family and the
 
 # Close the file
 f.close()
+
