@@ -1,0 +1,1074 @@
+6. Use the Information panel in Workbench to review basic data about each table:
+∗ What is the primary key of the table?
+
+CategoryID
+
+∗ What are the parent tables of this table? (i.e. What tables do any foreign keys
+reference?)
+
+None
+
+Table name 1 - categories
+
+Question 7.  Column 1 - CategoryID
+
+​1. What does a value in this column represent? What values might you see here? 
+
+It represents a unique ID number for each category. numbers like 1, 2, 3, etc.
+
+​2. Is this column a part of the primary key to this table?
+ Yes
+​3. Is this column a part of a foreign key that points to a record in another table?
+ No
+​4. Would this column be valuable to bring into our Power BI Model? Yes, or no? Why?
+
+ Yes, because we need this ID to connect the Categories table to the Products table.
+
+​5. Do you believe this column is appropriately named for Data Analysis purposes? 
+Yes.
+
+​6. If not, what might be a more appropriate name? 
+ N/A 
+
+7. ​What might be the data type and format for this column in a Power BI Model?
+ Whole Number
+
+​8. Can you think of any calculations where this column data might be used?
+ 
+It can be used to count the total number of product categories.
+
+​Column 2 - CategoryName
+
+​1.What does a value in this column represent? What values might you see here?
+
+ It represents the actual name of the category.  text like Beverages, Seafood, or Confections.
+
+​2.Is this column a part of the primary key to this table? 
+No
+
+​3.Is this column a part of a foreign key that points to a record in another table? 
+No
+
+​4. Would this column be valuable to bring into our Power BI Model? Yes, or no? Why? 
+
+Yes, because we will use these names as labels and filters on our charts.
+
+​5. Do you believe this column is appropriately named for Data Analysis purposes? 
+Yes
+
+​6. If not, what might be a more appropriate name?
+ 
+It could be renamed to just Category to make charts look cleaner.
+
+​7. What might be the data type and format for this column in a Power BI Model?
+ Text
+
+​8. Can you think of any calculations where this column data might be used?
+
+ It can be used to group and slice sales revenue data.
+
+​Column 3 - Description
+
+​1. What does a value in this column represent? What values might you see here? 
+
+It represents a text explanation of what is in the category e.g. Soft drinks, coffees, teas, beers, and ales
+
+​2. Is this column a part of the primary key to this table?
+ No
+
+​3. Is this column a part of a foreign key that points to a record in another table?
+ No
+
+​4. Would this column be valuable to bring into our Power BI Model? Yes, or no? Why?
+
+ No, because long sentences are rarely useful on a visual data dashboard.
+
+​5. Do you believe this column is appropriately named for Data Analysis purposes?
+ Yes
+
+​6. If not, what might be a more appropriate name?
+ N/A
+
+​7. What might be the data type and format for this column in a Power BI Model? 
+Text
+
+​8. Can you think of any calculations where this column data might be used? 
+None
+
+​Column 4 - Picture
+
+​1. What does a value in this column represent? What values might you see here?
+
+ It represents an image file of the category stored as binary data.
+
+​2. Is this column a part of the primary key to this table?
+ No
+
+​3. Is this column a part of a foreign key that points to a record in another table?
+ No
+
+​4. Would this column be valuable to bring into our Power BI Model? Yes, or no? Why? 
+
+No, because raw database images slow down the Power BI model and aren't needed for charts.
+
+​5. Do you believe this column is appropriately named for Data Analysis purposes? 
+Yes
+
+​6. If not, what might be a more appropriate name?
+ N/A
+
+​7. What might be the data type and format for this column in a Power BI Model? 
+Binary
+
+​8. Can you think of any calculations where this column data might be used? 
+None
+
+Table Name 2 - Customers
+
+​Question 6: Basic Data About the Table
+
+​What is the primary key of the table?
+
+ CustomerID
+
+​What are the parent tables of this table? 
+
+None
+
+​Question 7: Columns Review
+
+​Since this table has many columns that do similar things, I will focus on the most important ones
+
+​Column 1 - CustomerID
+
+​1. What does a value in this column represent? 
+
+A unique 5-letter text code for each customer company like ALFKI
+
+​2. Is this column a part of the primary key to this table? 
+Yes
+
+​3. Is this column a part of a foreign key that points to a record in another table?
+ No
+​4. Would this column be valuable to bring into our Power BI Model?
+
+ Yes, we need it to connect customers to their orders.
+
+​5. Do you believe this column is appropriately named for Data Analysis purposes? 
+Yes
+
+​6. If not, what might be a more appropriate name?
+ N/A
+
+​7. What might be the data type and format for this column in a Power BI Model? 
+Text
+
+​8. Can you think of any calculations where this column data might be used? 
+
+Counting the total number of unique customers.
+
+​Column 2 - CompanyName
+
+​1. What does a value in this column represent? 
+
+The official name of the customer's business.
+
+​2. Is this column a part of the primary key to this table?
+
+ No
+
+​3. Is this column a part of a foreign key that points to a record in another table?
+
+ No
+
+​4. Would this column be valuable to bring into our Power BI Model? 
+
+Yes, we will use these names as the main labels on our charts.
+
+​5. Do you believe this column is appropriately named for Data Analysis purposes?
+
+ Yes
+
+​6. If not, what might be a more appropriate name? 
+
+Could change to Customer Name
+
+​7. What might be the data type and format for this column in a Power BI Model? 
+
+Text
+
+​8. Can you think of any calculations where this column data might be used? 
+
+Grouping and sorting sales data by customer.
+
+​Column 3 - City (and Country)
+
+​1. What does a value in this column represent?
+ 
+The physical location of the customer.
+
+​2. Is this column a part of the primary key to this table?
+
+ No
+
+​3. Is this column a part of a foreign key that points to a record in another table?
+
+ No
+
+​4. Would this column be valuable to bring into our Power BI Model? 
+
+Yes, highly valuable for building map visuals.
+
+​5. Do you believe this column is appropriately named for Data Analysis purposes? 
+
+Yes
+
+​6. If not, what might be a more appropriate name? 
+
+N/A
+
+​7. What might be the data type and format for this column in a Power BI Model? 
+
+Text
+
+​8. Can you think of any calculations where this column data might be used? 
+
+Slicing sales and order volumes by geographic region.
+
+​Column 4 - Phone (and Fax)
+
+​1. What does a value in this column represent? 
+
+The contact numbers for the customer.
+
+​2. Is this column a part of the primary key to this table?
+
+ No.
+
+​3. Is this column a part of a foreign key that points to a record in another table?
+ 
+No
+​4. Would this column be valuable to bring into our Power BI Model? 
+
+No, telephone numbers are rarely used in aggregate data analysis dashboards.
+
+​5. Do you believe this column is appropriately named for Data Analysis purposes? 
+
+Yes
+
+​6. If not, what might be a more appropriate name? 
+
+N/A
+
+​7. What might be the data type and format for this column in a Power BI Model? 
+
+Text
+
+​8. Can you think of any calculations where this column data might be used? 
+
+None
+
+Table Name 3 - Employees
+
+​Question 6  Basic Data About the Table
+
+​What is the primary key of the table?
+
+ EmployeeID
+
+​What are the parent tables of this table? 
+
+Employees (The ReportsTo column points back to EmployeeID because managers are also employees).
+
+​Question 7 - Columns Review
+
+​Column 1 - EmployeeID
+
+​1. What does a value in this column represent? 
+
+A unique identification number for each employee (e.g., 1, 2, 3).
+
+​2. Is this column a part of the primary key to this table? 
+
+Yes
+
+​3. Is this column a part of a foreign key that points to a record in another table? 
+
+No
+
+​4. Would this column be valuable to bring into our Power BI Model?
+
+ Yes, to track which employee made which sale.
+
+​5. Do you believe this column is appropriately named for Data Analysis purposes?
+
+ Yes
+
+​6. If not, what might be a more appropriate name?
+
+ N/A
+
+​7. What might be the data type and format for this column in a Power BI Model? 
+
+Whole Number
+
+8. ​Can you think of any calculations where this column data might be used?
+
+ Counting the total number of staff members.
+
+​Column 2 - LastName (and FirstName)
+
+​1. What does a value in this column represent? 
+
+The name of the employee.
+
+​2. Is this column a part of the primary key to this table?
+
+ No
+
+​3. Is this column a part of a foreign key that points to a record in another table? 
+
+No
+
+​4. Would this column be valuable to bring into our Power BI Model? 
+
+Yes, so we can see actual names on our sales performance charts.
+
+​5. Do you believe this column is appropriately named for Data Analysis purposes? 
+
+Yes
+
+​6. If not, what might be a more appropriate name?
+
+ In Power BI, it is usually best to combine them into one column named "Employee Name".
+
+​7. What might be the data type and format for this column in a Power BI Model?
+
+ Text
+
+​8.Can you think of any calculations where this column data might be used?
+
+ Grouping sales revenue by individual sales reps.
+
+​Column 3 - ReportsTo
+
+​1. What does a value in this column represent?
+ 
+The EmployeeID of this person's manager.
+
+​2. Is this column a part of the primary key to this table? 
+No
+
+​3. Is this column a part of a foreign key that points to a record in another table?
+ Yes, it points back to the same table.
+
+​4. Would this column be valuable to bring into our Power BI Model?
+
+ Yes, it helps build an organizational hierarchy chart.
+
+​5. Do you believe this column is appropriately named for Data Analysis purposes? 
+Yes.
+​6. If not, what might be a more appropriate name?
+
+ Could change to "ManagerID"
+
+​7. What might be the data type and format for this column in a Power BI Model? 
+
+Whole Number.
+
+​8. Can you think of any calculations where this column data might be used? 
+
+Grouping team sales totals under specific managers.
+
+Columns - 4, 5, & 6 BirthDate, HireDate, & Extension
+
+​1. What they represent / Values: Dates of birth, dates of hire, and office phone extensions.
+​2. Is this column a part of the primary or foreign key?
+ No
+​3. Would this column be valuable to bring into our Power BI Model? 
+
+HireDate is valuable to see how employee experience impacts sales. BirthDate and Extension are NOT valuable because they aren't used for business dashboards.
+
+​4. Appropriately named? 
+
+Yes
+
+​5. If not, 
+ N/A
+
+​6. Data type and format
+Date (for hire/birth dates) and Text (for extension).
+
+​8. Can you think of any calculations where this column data might be used? 
+
+Calculating employee tenure (how many years they have worked at the company).
+
+​Columns 7 to 11: Address Columns (Address, City, Region, PostalCode, Country)
+
+​1. What they represent / Values 
+
+The home address details of the employee.
+
+​2. Is this column a part of the primary or foreign key?
+
+ No
+
+3. ​Would this column be valuable to bring into our Power BI Model? 
+
+No. While customer locations are great for sales maps, employee home addresses are private HR data and aren't useful for sales dashboards.
+
+​4. Appropriately named? 
+
+Yes
+
+​5. If not
+  N/A
+
+​6. Data type and format
+ Text
+
+​8. Can you think of any calculations where this column data might be used?
+
+ None for sales analysis.
+
+​Columns 12 to 15 - Contact & Profile (HomePhone, Photo, Notes, PhotoPath)
+
+1. ​What they represent / Values
+
+Personal phone numbers, pictures, and text biographies of the employee.
+
+​2. Is this column a part of the primary or foreign key? 
+
+No
+
+3. ​Would this column be valuable to bring into our Power BI Model?
+
+ No. These take up too much memory and provide zero analytical value for charts.
+
+​4. Appropriately named? 
+
+Yes
+
+​5. If not, new name 
+
+N/A
+
+6. ​Data type and format
+
+ Text / Binary
+
+8. ​Can you think of any calculations where this column data might be used? 
+
+None
+
+Table Name 4  EmployeeTerritories
+
+​Question 6: Basic Data About the Table
+
+​What is the primary key of the table?
+
+ It uses a Composite Primary Key made of both columns combined: (EmployeeID, TerritoryID).
+
+​What are the parent tables of this table? 
+
+Employees (via EmployeeID) and Territories (via TerritoryID).
+
+​Question 7 Columns Review
+
+​Column 1 EmployeeID
+
+​1. What does a value in this column represent? 
+
+The ID number of the employee.
+
+​2. Is this column a part of the primary key to this table? 
+
+Yes (as part of the composite key).
+
+​3. Is this column a part of a foreign key that points to a record in another table? 
+
+Yes, it points to the Employees table.
+
+​4. Would this column be valuable to bring into our Power BI Model? 
+
+No. Power BI handles relationships much better if we connect Employees directly to Orders. We usually don't need this bridge table in the final model unless we are doing deep geographic analysis.
+
+​5. Do you believe this column is appropriately named for Data Analysis purposes?
+ 
+Yes
+
+​6. If not, what might be a more appropriate name?
+
+ N/A
+
+​7. What might be the data type and format for this column in a Power BI Model?
+
+ Whole Number
+
+​8. Can you think of any calculations where this column data might be used? 
+
+None
+
+​Column 2: TerritoryID
+
+​1. What does a value in this column represent? 
+A unique text code or number for a specific geographic area (like a city or district).
+
+​2. Is this column a part of the primary key to this table? 
+
+Yes (as part of the composite key)
+
+​3. Is this column a part of a foreign key that points to a record in another table? 
+
+Yes, it points to the Territories table.
+
+​4. Would this column be valuable to bring into our Power BI Model? 
+
+No, for the same reason as above.
+
+​5. Do you believe this column is appropriately named for Data Analysis purposes?
+
+ Yes
+
+​6. If not, what might be a more appropriate name?
+ 
+N/A
+
+​7. What might be the data type and format for this column in a Power BI Model? 
+
+Text
+
+​8. Can you think of any calculations where this column data might be used? 
+
+None
+
+Table Name 5  order Details
+
+​Question 6: Basic Data About the Table
+
+​What is the primary key of the table? 
+
+It uses a Composite Primary Key made of two columns combined OrderID, ProductID
+
+​What are the parent tables of this table? 
+
+Orders via OrderID and Products via ProductID.
+
+​Question 7: Columns Review
+
+​Column 1 - OrderID
+
+​1. What does a value in this column represent? 
+
+The identification number of the overall order receipt.
+
+​2. Is this column a part of the primary key to this table?
+
+ Yes (as part of the composite key).
+
+​3. Is this column a part of a foreign key that points to a record in another table? 
+
+Yes, it points to the Orders table.
+
+​4. Would this column be valuable to bring into our Power BI Model? 
+
+Yes, it connects the individual items back to the overall order details (like date and customer).
+
+​5. Do you believe this column is appropriately named for Data Analysis purposes? 
+
+Yes
+
+​6. If not, what might be a more appropriate name?
+
+ N/A
+
+​7. What might be the data type and format for this column in a Power BI Model? 
+
+Whole Number
+
+​8. Can you think of any calculations where this column data might be used? 
+
+Counting the total number of items sold per order.
+
+​Column 2 - ProductID
+
+​1. What does a value in this column represent? 
+
+The ID number of the specific item being purchased.
+
+​2. Is this column a part of the primary key to this table?
+
+ Yes (as part of the composite key).
+
+​3. Is this column a part of a foreign key that points to a record in another table? 
+
+Yes, it points to the Products table.
+
+​4. Would this column be valuable to bring into our Power BI Model?
+
+ Yes, so we can know exactly what products are making money.
+
+​5. Do you believe this column is appropriately named for Data Analysis purposes?
+
+ Yes
+
+​6. If not, what might be a more appropriate name?
+
+ N/A
+
+​7. What might be the data type and format for this column in a Power BI Model? 
+
+Whole Number
+
+​8. Can you think of any calculations where this column data might be used? 
+
+Identifying which products are bought together most often.
+
+​Columns - 3, 4, & 5 UnitPrice, Quantity, & Discount
+
+​1. What they represent / Values
+
+ The price of the item at the time of purchase, how many items were bought, and any price deduction applied (e.g., 0.10 for 10% off).
+
+​2. Is this column a part of the primary or foreign key?
+
+ No
+
+​3. Would this column be valuable to bring into our Power BI Model?
+
+ Yes, absolutely vital. These are the main numeric values used for sales math.
+
+​4. Appropriately named? 
+
+Yes
+
+5. ​If not, new name
+ N/A
+6. ​Data type and format
+
+ Decimal Number/Currency (for UnitPrice), Whole Number (for Quantity), and Percentage/Decimal (for Discount).
+
+​8. Can you think of any calculations where this column data might be used? 
+
+Calculating total sales revenue using the formula: \text{Gross Revenue} = \text{UnitPrice} \times \text{Quantity} \times (1 - \text{Discount}).
+
+Table 6  Orders
+
+​Question 6: Basic Data About the Table
+
+​What is the primary key of the table? 
+
+OrderID
+
+
+​What are the parent tables of this table? 
+
+Customers (via CustomerID), Employees (via EmployeeID), and Shippers (via ShipVia).
+
+​Question 7 - Columns Review
+
+​Column 1 - OrderID
+
+​1. What it represents / Values
+
+ A unique ID number for the overall order receipt.
+
+​2. Is this column a part of the primary key to this table? 
+
+Yes
+
+​3. Is this column a part of a foreign key that points to a record in another table? 
+
+No
+
+​4. Would this column be valuable to bring into our Power BI Model? 
+
+Yes, to connect order details to customers and employees.
+
+​6. Data type / Format
+
+ Whole Number
+
+​8. Calculations
+
+ Counting the total number of orders placed.
+
+​Columns 2, 3, & 4: Date Columns (OrderDate, RequiredDate, ShippedDate)
+
+​1. What they represent / Values
+
+ Calendar dates tracking when the order was placed, when it is needed, and when it shipped.
+
+​2. Is this column a part of the primary or foreign key?
+ No.
+
+​3. Would this column be valuable to bring into our Power BI Model? 
+
+Yes, critical for seeing sales trends over years, quarters, and months.
+
+​4. Data type / Format
+
+ Date (Short Date format).
+
+​8.Calculations
+
+ Calculating delivery performance (e.g. ShippedDate minus OrderDate to find shipping lag time).
+
+​Column 5 - Freight
+
+​1. What it represents / Values
+
+ The shipping cost charged for the order.
+
+​2. Is this column a part of the primary or foreign key? 
+
+No
+​3. Would this column be valuable to bring into our Power BI Model? 
+
+Yes, to track operational shipping costs.
+
+​4. Data type / Format
+
+Decimal Number / Currency.
+
+​5. Calculations
+
+Total freight costs or average shipping costs per country.
+
+​Table 7 Products
+
+​Question 6: Basic Data About the Table
+
+​What is the primary key of the table?
+
+ ProductID
+
+​What are the parent tables of this table? 
+
+Suppliers (via SupplierID) and Categories (via CategoryID).
+
+​Question 7 Columns Review
+
+​Columns 1 & 2 - ProductID & ProductName
+
+​1. What they represent / Values
+
+ Unique item ID numbers and their descriptive text names (like "Chai", "Tofu").
+
+​2. Is this column a part of the primary or foreign key? 
+
+ProductID is the Primary Key. ProductName is a normal column.
+
+​3. Would this column be valuable to bring into our Power BI Model?
+
+ Yes, essential for showing top-selling items on charts.
+
+​4. Data type / Format
+
+ Whole Number (ID) and Text (Name).
+
+​5. Calculations
+
+ Counting total unique products offered; grouping revenue by product name.
+
+​Columns 3 & 4: Inventory Columns (UnitsInStock, UnitsOnOrder, ReorderLevel)
+
+​1. What they represent / Values
+
+ Numbers showing how much stock is on hand, how much is coming, and when to buy more.
+
+​2. Is this column a part of the primary or foreign key? 
+
+No
+​3. Would this column be valuable to bring into our Power BI Model?
+
+ Yes, great for building inventory management dashboards.
+
+​4. Data type / Format
+
+ Whole Number
+
+​5. Calculations
+
+ Finding total inventory value (\text{UnitsInStock} \times \text{UnitPrice}) or finding out-of-stock items.
+
+​Table 8  Region
+
+​Question 6: Basic Data About the Table
+
+​What is the primary key of the table? 
+
+RegionID
+
+​What are the parent tables of this table? 
+
+None.
+
+​Question 7 Columns Review
+
+​Column 1 RegionID
+
+​1. What it represents / Values
+
+ A unique ID number for a broad territory region (1, 2, 3, 4).
+
+​2. Is this column a part of the primary key to this table? 
+Yes
+
+​3. Is this column a part of a foreign key that points to a record in another table? 
+No
+
+​4. Would this column be valuable to bring into our Power BI Model? 
+
+No, because regional geographic descriptions are usually easier to track directly on the customer or employee tables in Power BI.
+
+​5. Data type / Format
+
+ Whole Number
+
+​6. Calculations
+
+ None
+
+​Column 2 RegionDescription
+
+​1. What it represents / Values
+
+ The text name of the region (like "Eastern", "Western").
+
+​2. Is this column a part of the primary or foreign key?
+ No
+
+​3. Would this column be valuable to bring into our Power BI Model?
+
+ No, for the same reason as above.
+
+4.​ Data type / Format
+ Text
+
+​5. Calculations
+ None
+
+
+Table 9  Shippers
+
+​Question 6 Basic Data About the Table
+
+​What is the primary key of the table?
+
+ ShipperID
+
+​What are the parent tables of this table? 
+
+None
+
+​Question 7 Columns Review
+
+​Column 1 ShipperID
+
+​1.What it represents / Values
+
+ A unique ID number for each shipping company (e.g., 1, 2, 3).
+
+​2.Is this column a part of the primary key to this table? 
+Yes
+
+​3.Is this column a part of a foreign key that points to a record in another table?
+ No
+
+​4.Would this column be valuable to bring into our Power BI Model? 
+
+Yes, we need it to connect shipping data to our Orders table (via the ShipVia column).
+
+​5.Data type / Format
+
+ Whole Number.
+
+​6.Calculations
+
+ Counting the number of shipping vendors used.
+
+​Columns 2 & 3: CompanyName & Phone
+
+​1. What they represent / Values
+
+The name of the freight company (like "Speedy Express") and their phone number.
+
+​2. Is this column a part of the primary or foreign key? 
+No
+
+​3. Would this column be valuable to bring into our Power BI Model? 
+
+CompanyName is valuable so we can see which shippers handle most of our orders. Phone is not valuable for data analysis dashboards.
+
+​4. Data type / Format
+
+ Text
+​5. Calculations
+
+ Grouping shipping performance, delays, and freight costs by shipping company.
+
+​Table 10 Suppliers
+
+​Question 6 Basic Data About the Table
+
+​What is the primary key of the table?
+
+ SupplierID
+
+​What are the parent tables of this table? 
+
+None
+
+​Question 7 Columns Review
+
+​Column 1 SupplierID
+
+​What it represents / Values
+
+ A unique ID number for each product vendor (e.g., 1, 2, 3).
+
+​2. Is this column a part of the primary key to this table? 
+Yes
+
+​3. Is this column a part of a foreign key that points to a record in another table? 
+
+No
+
+​4. Would this column be valuable to bring into our Power BI Model? 
+
+Yes, to link our products back to the vendors we purchase them from.
+
+​5. Data type / Format
+
+ Whole Number
+
+​6. Calculations
+
+Counting total unique supply partners.
+
+​Column 2 CompanyName
+
+​1. What it represents / Values
+
+ The text name of the supplier company like Exotic Liquids
+
+​2. Is this column a part of the primary or foreign key? 
+
+No
+​3. Would this column be valuable to bring into our Power BI Model? 
+Yes, so we can display supplier names on charts and filters.
+
+​4. Data type / Format
+Text
+
+​5. Calculations
+
+ Grouping inventory and purchasing costs by vendor.
+
+​Columns 3 to 6 Location Columns (Address, City, Region, PostalCode, Country)
+
+​1. What they represent / Values
+
+ The physical address details of where the supplier is based.
+
+2.​Is this column a part of the primary or foreign key?
+ No
+
+​3.Would this column be valuable to bring into our Power BI Model? 
+
+Yes, especially Country, because it allows us to track international supply chains and display where our goods come from on map visuals.
+
+​4. Data type / Format
+
+Text
+
+​5. Calculations
+
+ Slicing product availability and costs by supplier region/country.
+
+​Table 11 Territories
+
+​Question 6: Basic Data About the Table
+
+​What is the primary key of the table? 
+
+TerritoryID
+
+​What are the parent tables of this table? 
+
+Region (via RegionID).
+
+​Question 7 Columns Review
+
+​Column 1 TerritoryID
+
+​1. What it represents / Values
+
+ A unique text code or number representing a specific sales district (e.g., '01581').
+
+​2.Is this column a part of the primary key to this table? 
+
+Yes
+
+​3.Is this column a part of a foreign key that points to a record in another table? 
+
+No
+
+​4.Would this column be valuable to bring into our Power BI Model? 
+
+No, because specific regional descriptions are usually easier to track directly on the customer or employee tables in Power BI.
+
+​5.Data type / Format
+ Text
+
+​6 . Calculations
+ None
+
+​Column 2 TerritoryDescription
+
+​1. What it represents / Values
+
+The text name of the specific local territory like Boston or New York
+
+​2. Is this column a part of the primary or foreign key?
+ No
+
+​3. Would this column be valuable to bring into our Power BI Model?
+
+ No, for the same reason as above.
+
+​4. Data type / Format
+
+ Text
+
+​5. Calculations
+
+ None
+
+​Column 3 RegionID
+
+​1. What it represents / Values
+
+ The ID code connecting this territory to a broader territory region.
+
+​2. Is this column a part of the primary key to this table?
+ No
+
+​3. Is this column a part of a foreign key that points to a record in another table? 
+
+Yes, it points to the Region table.
+
+​4. Would this column be valuable to bring into our Power BI Model? 
+
+No
+
+​5. Data type / Format
+
+ Whole Number
+
+​6. Calculations
+
+None
+
+
